@@ -1,35 +1,39 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: #f8f9fa;
+    background: #ffffff;
 }
 
 /* NAVBAR */
 .navbar {
-    background: #111827;
+    background: white;
 }
 .navbar-brand {
-    color: #fff !important;
-    font-weight: bold;
+    color: #111 !important;
 }
 .nav-link {
-    color: #d1d5db !important;
+    color: #555 !important;
 }
 .nav-link:hover {
-    color: #fff !important;
+    color: black !important;
 }
 
 /* HERO */
 .hero {
-    height: 100vh;
-    background: linear-gradient(135deg, #111827, #2563eb);
-    color: white;
-    display: flex;
-    align-items: center;
+    min-height: 100vh;
+    padding-top: 100px;
 }
 
-/* SECTIONS */
+.profile-img {
+    max-width: 250px;
+}
+
+/* SECTION */
 section {
     padding: 80px 0;
+}
+
+.section-subtitle {
+    color: #6c757d;
 }
 
 /* SKILLS */
@@ -37,36 +41,23 @@ section {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
-    transition: 0.3s;
-}
-.skill-box:hover {
-    transform: translateY(-8px);
+    border: 1px solid #eee;
 }
 
-/* PROJECTS */
+/* PROJECT */
 .project-card {
-    border: none;
-    border-radius: 15px;
-    transition: 0.3s;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-.project-card:hover {
-    transform: translateY(-10px);
+    border: 1px solid #eee;
+    border-radius: 10px;
 }
 
 /* CONTACT */
 .contact-form {
-    max-width: 600px;
-    margin: auto;
-}
-.form-control {
-    border-radius: 10px;
+    max-width: 700px;
 }
 
 /* FOOTER */
 footer {
-    background: #111827;
+    background: #111;
     color: white;
     text-align: center;
     padding: 20px;
